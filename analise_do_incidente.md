@@ -12,10 +12,10 @@
 		- [Correlacionando IPs nocivos x domínios suspeitos](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#Correlacionando-IPs-nocivos-x-domínios-suspeitos)
 	- [Comunicação HTTP](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#Comunicação-HTTP)
 		- [Análise das requests e response HTTP](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#Análise-das-requests-e-response-HTTP)
-			- [tucinehd.com e bsc-dataseed1.binance.org](#tucinehd.com-e-bsc-dataseed1.binance.org)
-			- [mdasidy72.lol](#mdasidy72.lol)
-   - [Correlacionando tráfego de rede com arquivos suspeitos](#Correlacionando%20tr%C3%A1fego%20de%20rede%20com%20arquivos%20suspeitos)
-	 - [omgsoft.zip](#omgsoft.zip)
+			- [tucinehd.com e bsc-dataseed1.binance.org](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#tucinehd.com-e-bsc-dataseed1.binance.org)
+			- [mdasidy72.lol](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#mdasidy72.lol)
+   - [Correlacionando tráfego de rede com arquivos suspeitos](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#Correlacionando-tráfego-de-rede-com-arquivos-suspeitos)
+	 - [omgsoft.zip](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#omgsoft.zip)
 
 
   
