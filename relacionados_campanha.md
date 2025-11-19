@@ -5,7 +5,6 @@
 - [Cyber Kill Chain](https://github.com/willyamcts/report-ir/blob/main/relacionados_campanha.md#Cyber-Kill-Chain)
 - [Diamond Model](https://github.com/willyamcts/report-ir/blob/main/relacionados_campanha.md#Diamond-Model)
 - [Contenção](https://github.com/willyamcts/report-ir/blob/main/relacionados_campanha.md#Contenção)
-- [Correlacionando tráfego de rede com arquivos suspeitos](https://github.com/willyamcts/report-ir/blob/main/relacionados_campanha.md#Correlacionando-tráfego-de-rede-com-arquivos-suspeitos)
 
                                                            
 # Análise da campanha
