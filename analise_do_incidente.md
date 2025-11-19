@@ -14,6 +14,8 @@
 		- [Análise das requests e response HTTP](https://github.com/willyamcts/report-ir/blob/main/analise_do_incidente.md#Análise-das-requests-e-response-HTTP)
 			- [tucinehd.com e bsc-dataseed1.binance.org](#tucinehd.com-e-bsc-dataseed1.binance.org)
 			- [mdasidy72.lol](#mdasidy72.lol)
+   - [Correlacionando tráfego de rede com arquivos suspeitos](#Correlacionando%20tr%C3%A1fego%20de%20rede%20com%20arquivos%20suspeitos)
+	 - [omgsoft.zip](#omgsoft.zip)
 
 
   
@@ -879,3 +881,42 @@ Relatório completo ANYRUN: https://any.run/report/e60d911f2ef120ed782449f1136c2
 
 
 
+
+
+
+# Correlacionando tráfego de rede com arquivos suspeitos
+
+
+Com base no tráfego coletado, pode-se perceber que o primeiro contato do paciente zero foi com o domínio tucinehd.com, que utiliza o IP 94.242.50.135
+
+![cenario9-vt_tucinehd.png](images/cenario9-vt_tucinehd.png)
+
+Note que o domínio já foi marcado como malicioso por alguns fornecedores de serviços de segurança, porém o IP aparenta não ser nocivo.
+
+
+----------------
+
+A seguir será listado cada arquivo classificado como nocivo pelo Vírus Total e relacionado ao tráfego de rede que foi coletado.
+
+
+
+* 12:39:59 UTC-3 o IP interno `10.6.24.101` acessou `tucinehd.com` com destino a 94.242.50.135.
+* O IP atual para `tucinehd.com` = 185.237.100.160, não consta na base do `abuseipdb.com`.
+
+
+## omgsoft.zip
+Conforme [análise do Virus Total](https://www.virustotal.com/gui/file/6608aeae3695b739311a47c63358d0f9dbe5710bd0073042629f8d9c1df905a8/behavior) em conjunto com o PCAP coletado...
+
+* o FQDN utilizado é o `latesttributedowps.shop`
+* 24/06/2024 12:42:15 UTC-3 o host `10.6.24.101` fez a consulta de DNS para o domínio `latesttributedowps.shop` que retornou os IPs `172.167.138.40` e `104.21.70.178`
+* No mesmo instante começou o download de alguma arquivo do IP `172.167.138.40` para o IP local `10.6.24.101` 
+
+Limpos:
+* Google: 142.250.114.95, 142.251.116.132
+* Veesp.com: 94.242.50.135
+* chatango.com: 208.93.230.26
+
+Avaliar:
+* bunny.net: 185.93.1.246
+
+![cenario9-abuseip_bunny.png](images/cenario9-abuseip_bunny.png)
